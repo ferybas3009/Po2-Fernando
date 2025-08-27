@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <a href="/hidro">
+                <img src="{{ url_for('static', filename='images/hidro.png') }}" alt="">
+            </a>
+            <h2>Hidro Aviao</h2>
+        </div>
+
+        <div class="card">
+            <a href="/comercial">
+                <img src="{{ url_for('static', filename='images/comercial.png') }}" alt="">
+            </a>
+            <h2>Aviao Comercial</h2>
+        </div>
+
+        <div class="card">
+            <a href="/jato">
+                <img src="{{ url_for('static', filename='images/jato.png') }}" alt="">
+            </a>
+            <h2>Aviao jato particular</h2>
+        </div>
+
+
+    </div>
+</body>
+</html>
